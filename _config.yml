@@ -1,3 +1,5 @@
 theme: jekyll-theme-minimal
 title: Rink's Homepage
 description: Research in a More Simpler, Faster, Safer Way
+
+permalink: /blog/:year/:month/:day/:title
