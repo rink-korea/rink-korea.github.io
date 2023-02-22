@@ -154,6 +154,13 @@ nav a.active {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+.rounded-image {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 200px; /* adjust the width to your preference */
+  height: 200px; /* adjust the height to your preference */
+}
+
 /* Services */
 .services {
   background-color: #fff;
