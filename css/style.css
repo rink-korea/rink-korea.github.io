@@ -34,14 +34,9 @@ body {
   }
 
   .logo-container {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-  }
-  
-  .logo-container img {
-    max-width: 100%;
-    max-height: 100%;
+    font-size: 28px;
+    color: #333;
+    text-transform: uppercase;
   }
   
   header nav {
@@ -105,6 +100,8 @@ header {
 }
 
 .logo {
+  border-radius: 50%;
+  overflow: hidden;
   font-size: 24px;
   font-weight: bold;
   color: #333;
@@ -157,8 +154,8 @@ nav a.active {
 .rounded-image {
   border-radius: 50%;
   overflow: hidden;
-  width: 200px; /* adjust the width to your preference */
-  height: 200px; /* adjust the height to your preference */
+  width: 250px; /* adjust the width to your preference */
+  height: 250px; /* adjust the height to your preference */
 }
 
 /* Services */
@@ -415,3 +412,45 @@ footer {
   transition: all 0.3s ease;
 }
 
+.fa {
+  color: orange;
+}
+
+#consult {
+  padding: 100px 0;
+}
+#consult .section-heading {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+#consult .section-subheading {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 75px;
+  text-transform: none;
+}
+#consult .btn-primary {
+  background-color: #ff8c00;
+  border-color: #ff8c00;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 12px 30px;
+  text-transform: uppercase;
+}
+#consult .btn-primary:hover {
+  background-color: #333333;
+  border-color: #333333;
+}
+
+#features {
+  background-color: #fff;
+  padding: 50px 0;
+  border: 1px solid #eee;
+}
+
+#contact {
+  background-color: #fff;
+  padding: 50px 0;
+  border: 1px solid #eee;
+}
