@@ -86,3 +86,13 @@ ul.posts li {
 @media all and (max-width: 500px) {
 .vid-info .acronym { display: none; }
 }
+
+.center {
+    text-align: center;
+  }
+  
+  /* Define a CSS class for the button */
+  .my-button {
+    display: inline-block;
+    /* Add any other styles for the button, such as background color, padding, etc. */
+  }
