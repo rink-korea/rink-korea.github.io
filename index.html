@@ -1,212 +1,434 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rink D&amp;S | Food Tech SaaS Startup</title>
-    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-    <link rel="icon" href="favicon.png" type="image/x-icon">
-  </head>
-  
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="logo-container">
-        <h1> RINK D&S </h1>
-      </div>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#features">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#process">Process</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+<html lang="kor">
+<head>
+    <link rel="icon" href="logo">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Rink DNS</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:700,900" rel="stylesheet">
+    <style>
+           body {
+                 font-family: 'Lato', sans-serif;
+                 }
+	   
+	    #map {
+        		height: 100%;
+      		 }
+      	    /* Optional: Makes the sample page fill the window. */
+      	    html, body {
+        	height: 100%;
+        	margin: 0;
+        	padding: 0;
+      		       }
+		    
+    </style>
+	
+</head>	    
 
-    <section class="hero" style:"background-Image: url()">
-      <div class="hero-text">
-        <h1>Food R&amp;D in a Faster, Easier, Safer way</h1>
-        <h2>Food Technology for 21st Century</h2>   
-      </div>
-    </section>
+<body>
 
-    <br>
-    
-<!-- About Us section -->
-<section class="about-us" id="about-us">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="section-heading">
-          <h2>About Us</h2>
-        </div>
-      </div>
-      <div class="col-lg-6 col-md-8 col-12">
-        <p>Rink D&amp;S is a food technology startup that provides consulting, data vendor, and lab information management services to help create new and innovative food products. Our team of food technology experts leverage molecular and market data to optimize the nutritional value, sustainability, functionality, flavor, and price of food products. </p>
-        <p>Our software simplifies and streamlines the food product development process, making it accessible to anyone with a passion for food and a desire to share it with others. Whether you're a food manufacturer looking to improve your products or a consumer interested in healthier food options, Rink D&amp;S has the expertise and technology to help.</p>
-      </div>
-      <div class="col-lg-6 col-md-4 col-12 text-center">
-        <img src="ai_solution.png" alt="About Us" class="rounded-image">
-      </div>
-    </div>
-  </div>
-</section>
-  
-<br>
+    <!--Main Navigation-->
+    <header>
 
-<!-- Features section -->
-<section class="features" id="features">
-  <div class="container">
-    <div class="row">
-      
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading">Our Services</h2>
-        <hr class="my-4">
-        <br>
-      </div>
-      <div class="col-lg-4 col-md-6 col-12 text-center">
-        <div class="feature">
-          <i class="fas fa-laptop-code fa-4x " style="color: orange;"></i>
-          <h3 class="feature-heading">Consulting</h3>
-          <p class="feature-text">Our food technology experts provide comprehensive consulting services to help you create new and innovative food products.</p>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 col-12 text-center">
-        <div class="feature">
-          <i class="fas fa-database fa-4x" style="color: orange;"></i>
-          <h3 class="feature-heading">Data Vendor</h3>
-          <p class="feature-text">Access our extensive database of molecular and market data to help inform your food product development decisions.</p>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 col-12 text-center">
-        <div class="feature">
-          <i class="fas fa-flask fa-4x" style="color: orange;"></i>
-          <h3 class="feature-heading">Lab Information Management</h3>
-          <p class="feature-text">Our Lab Information Management software simplifies and streamlines the data management process for food product development.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<br>
-
-  <!-- Process Section -->
-  <section id="process">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <br>
-          <h2 class="section-heading">Our Process</h2>
-          <hr class="my-4">
-          <br>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 col-md-6 text-center">
-          <div class="process-icon mb-5">
-            <i class="fas fa-file-alt fa-4x" style="color: orange;"></i>
-          </div>
-          <h4 class="mb-3">Research & Ideation</h4>
-          <p class="text-muted">Our team of food scientists and data analysts conduct extensive research to identify market trends and potential product ideas.</p>
-        </div>
-        <div class="col-lg-4 col-md-6 text-center">
-          <div class="process-icon mb-5">
-            <i class="fas fa-flask fa-4x" style="color: orange;"></i>
-          </div>
-          <h4 class="mb-3">Product Development</h4>
-          <p class="text-muted">We utilize our proprietary software to optimize the nutritional value, sustainability, functionality, flavor, and price of our food products.</p>
-        </div>
-        <div class="col-lg-4 col-md-6 text-center">
-          <div class="process-icon mb-5">
-            <i class="fas fa-check fa-4x" style="color: orange;"></i>
-          </div>
-          <h4 class="mb-3">Testing & Validation</h4>
-          <p class="text-muted">Our products undergo rigorous testing to ensure that they meet our high standards for quality, taste, and nutrition.</p>
-        </div>
-        <div class="col-lg-4 col-md-6 text-center">
-          <div class="process-icon mb-5">
-            <i class="fas fa-shopping-cart fa-4x" style="color: orange;"></i>
-          </div>
-          <h4 class="mb-3">Launch & Distribution</h4>
-          <p class="text-muted">We help our clients bring their new products to market by assisting with production, packaging, and distribution.</p>
-        </div>
-        <div class="col-lg-4 col-md-6 text-center">
-          <div class="process-icon mb-5">
-            <i class="fas fa-sync fa-4x" style="color: orange;"></i>
-          </div>
-          <h4 class="mb-3">Continuous Improvement</h4>
-          <p class="text-muted">We constantly monitor and analyze our products to ensure that they remain competitive and meet the evolving needs of our customers.</p>
-        </div>
-        <div class="col-lg-4 col-md-6 text-center">
-          <div class="process-icon mb-5">
-            <i class="fas fa-user fa-4x" style="color: orange;"></i>
-          </div>
-          <h4 class="mb-3">Customer Support</h4>
-          <p class="text-muted">Our dedicated customer support team is available to assist with any questions or concerns that our clients may have.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <br>
-
-  <section id="contact" class="section section-contact">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <section id="consult" class="bg-white">
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
             <div class="container">
-              <div class="row">
-                <div class="col-lg-12 text-center">
-                  <h2 class="section-heading text-uppercase">Consult With Us</h2>
-                  <h3 class="section-subheading text-muted">Let's schedule a chat!</h3>
-                  <a class="btn btn-primary btn-xl text-uppercase" href="https://forms.gle/ahMnxmTskiPMScL88" target="_blank">Consult</a>
+
+                <!-- Navbar brand -->
+                <a class="navbar-brand" href="https://www.rinkdns.com"><img src="RINK.png"class="img-fluid" alt="RINK" width="100" height="100">  </a>
+
+                <!-- Collapse button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Collapsible content -->
+                <div class="collapse navbar-collapse" id="basicExampleNav">
+                    
+                    <!-- Links -->
+                    <ul class="navbar-nav mr-auto smooth-scroll">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#intro">홈</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#story">회사 소개</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://medium.com/">서비스</a>
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">문의</a>
+                        </li>
+                    </ul>
+                    <!-- Links -->
+                    
+                    <!-- Social Icon  -->
+                    <ul class="navbar-nav nav-flex-icons">
+                        <li class="nav-item">
+                            <a class="nav-link" href=https://www.facebook.com/theplanteat><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href=https://www.twitter.com/theplanteat><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href=https://www.instagram.com/eats_better><i class="fa fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                                            
                 </div>
-              </div>
+                <!-- Collapsible content -->
+
             </div>
-          </section>
-        </div>
-        <div class="col-md-6">
-          <div class="map-wrapper">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.3580676106453!2d126.94766251476945!3d37.54662683302686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c98a113276bab%3A0x42ef51912d6e6968!2sSeoul%20Startup%20Hub!5e0!3m2!1sen!2skr!4v1677043642560!5m2!1sen!2skr" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+        </nav>
+        <!--/.Navbar-->    
 
-  <br>
+        <!--Mask-->
+        <div id="intro" class="view">
 
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <p>&copy; 2023 Rink D&amp;S. All rights reserved.</p>
+            <div class="full-bg-img">
+
+                <div class="mask rgba-stylish-light">
+
+                    <div class="container-fluid d-flex align-items-center justify-content-center h-100">
+
+                        <div class="row d-flex justify-content-center text-center">
+
+                            <div class="col-md-10">
+
+                                <!-- Heading -->
+                                <h2 class="display-3 font-weight-bold white-text mb-2">식품원료의 모든것</h2>
+
+                                <!-- Description -->
+                                <h3 class="white-text my-4">RINK</h3>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
-        <div class="col-md-6">
-          <ul class="social-icons">
-            <li><a href="#"><i class="fab fa-facebook-f"></i> Facebook </a></li>
-            <li><a href="https://twitter.com/rink_dns"><i class="fab fa-twitter"> Twitter </i></a></li>
-            <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
-            <li><a href="https://www.linkedin.com/company/rinkdns/"><i class="fab fa-linkedin-in"></i> Linkedin </a></li>
-          </ul>
+        <!--/.Mask-->
+
+    </header>
+    <!--Main Navigation-->
+
+    <!--Main layout-->
+    <main class="mt-5">
+        <div class="container">
+
+            <!--Section: What we do-->
+            <section id="story" class="text-center">
+
+		<!-- ICON -->
+		<img src="RINK.png" class="img-fluid" alt="Research" width="80" height="80">   
+		
+		<br>
+		<br>
+		<br>
+		  
+		<!-- Heading -->
+                <h1 class="mb-5 font-weight-bold">RINK [링크] 란?</h1>
+
+                <!--Grid row-->
+                <div class="row d-flex justify-content-center mb-4">
+
+                    <!--Grid column-->
+                    <div class="col-md-8">
+
+                        <!-- Description -->
+                        <p class="grey-text"> 회사 설명 </p>
+
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+		
+		
+		    <!-- spacer -->
+		<br>
+		<br>
+                
+		<!-- process section -->
+			
+		    <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-4 mb-5">
+                      
+                        <img src="https://images.unsplash.com/photo-1561986863-60b73438b5c1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" class="img-fluid" alt="Research">
+                        <h4 class="my-4 font-weight-bold"> 원료 큐레이션 </h4>
+                        <p class="grey-text"> 원가 절감, 원료 이슈 </p>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-4 mb-1">
+                        <img src="https://plus.unsplash.com/premium_photo-1663040317885-e7f267775faf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" class="img-fluid" alt="Foods">
+                        <h4 class="my-4 font-weight-bold">제품용 원재료 검색</h4>
+                        <p class="grey-text"> 새로운 제품 개발 / 어떤 원료가 들어가는지부터 궁금할때 </p>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-4 mb-1">
+                        <img src="https://images.unsplash.com/photo-1627915589334-14a3c3e3a741?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1237&q=80" class="img-fluid" alt="database">
+                        <h4 class="my-4 font-weight-bold">PB 상품 개발 의뢰</h4>
+                        <p class="grey-text"> 완제품 개발 실행</p>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+            </section>
+
+<!--Section: Research Process-->
+<!-- space -->
+		<br>
+		<br>
+		
+		
+            <!--Section: Examples-->
+            <section id="research" >
+
+                <!-- Heading -->
+                <h2 class="mb-5 font-weight-bold">식품원료 정보 찾기</h2>
+                <h4 class="'mb-5 font-weight-bold">원료 서칭부터 적합성 검토까지의 수많은 시행착오 </h4>
+                <h4> RINK만의 노하우로 한번에 해결! </h4>
+                <!--Grid row-->
+                <div class="row">
+                    <img src="process.png"class="img-fluid" alt="Research" width="3000" height="5000">
+                </div>
+                <!--Grid row END of process-->                
+            </section>
+	
+ 
+<!-- space bar -->
+<br>
+<br>
+		
+            <!--Section: Product-->
+            <section id="Points">
+
+                <!-- Heading -->
+                <h2 class="mb-5 font-weight-bold"> 이럴때 저희를 찾아주세요 </h2>
+
+                <!--Grid row-->
+                <div class="row">
+                    <img src = "service.png"class="img-fluid" alt="Research" width="700" height="700">
+                </div>
+  <!--Grid row END of product-->                
+   </section>		
+
+<div class="container mt-5">
+    <a href="https://www.rinkdns.com" class="btn btn-warning"> <b>상담하기 </b></a>
+</div>
+       
+<br>
+
+            <section id="contact">
+
+                <h2 class="mb-5 font-weight-bold text-center"> </h2>
+
+               
+                <div class="row">
+
+                    <div class="col-lg-5 col-md-12">
+
+                <h1> VISIT US </h1>
+		<!-- visit us map update -->	    
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.3580676106453!2d126.94766251476945!3d37.54662683302686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c98a113276bab%3A0x42ef51912d6e6968!2sSeoul%20Startup%20Hub!5e0!3m2!1sen!2skr!4v1677043642560!5m2!1sen!2skr" width="500" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-7 col-md-12">
+
+                        <!--Grid row-->
+                        <div class="row text-center">
+
+                            <!--Grid column-->
+                            <div class="col-lg-4 col-md-12 mb-3">
+                            
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-lg-4 col-md-6 mb-3">
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                                <p>
+                                    <i class="fa fa-building fa-1x mr-2 grey-text"></i>Mon - Fri, 9:00-18:00</p>
+				                <p>    <i class="fa fa-map fa-1x mr-2 grey-text"></i>4th Floor, 21 Baekbeom-ro 31-gil, Gongdeok-dong, Mapo-gu, Seoul, Rep. of Korea</p>
+                                <p>    <i class="fa fa-envelope mr-3"></i> rink.contact@gmail.com </p>
+
+                            </div>
+                            <!--Grid column-->
+                        </div>
+                        <!--Grid row-->
+
+                        <div class="row text-center">
+                          				
+                </div>
+                <!--Grid row-->
+
+            </section>
+            <!--Section: Contact-->
+
         </div>
-      </div>
-    </div>
-  </footer>
-  
+    </main>
+    <!--Main layout-->
+
+<br>
+<br>
+
+
+    <!--Footer-->
+    <footer class="page-footer font-small unique-color-dark pt-0">
+
+        <!-- Social buttons -->
+        <div class="warning-color">
+            <div class="container">
+                <!--Grid row-->
+                <div class="row py-4 d-flex align-items-center">
+
+                    <!--Grid column-->
+                    <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                        <h6 class="mb-0 white-text">Social Network Accounts</h6>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6 col-lg-7 text-center text-md-right">
+                        <!--Facebook-->
+                        <a class="fb-ic ml-0" href=https://www.facebook.com/>
+                            <i class="fa fa-facebook white-text mr-4"> </i>
+                        </a>
+                        <!--Twitter-->
+                        <a class="tw-ic" href="https://www.twitter.com/">
+                            <i class="fa fa-twitter white-text mr-4"> </i>
+                        </a>
+                        <!--Instagram-->
+                        <a class="ins-ic" href="https://www.instagram.com/">
+                            <i class="fa fa-instagram white-text mr-lg-4"> </i>
+                        </a>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+            </div>
+        </div>
+        <!-- Social buttons -->
+        
+        <!--Footer Links-->
+        <div class="container mt-5 mb-4 text-center text-md-left">
+            <div class="row mt-3">
+
+                <!--First column-->
+                <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <strong>RINK</strong>
+                    </h6>
+                    <hr class="orange accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p> 의료를 윈료 답게</p>
+                </div>
+                <!--/.First column-->
+
+                <!--Second column-->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <strong>서비스</strong>
+                    </h6>
+                    <hr class="orange accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a href="#"> 원료 큐레이션 </a>
+                    </p>
+                    <p>
+                        <a href="">  </a>
+                    </p>
+                
+                </div>
+                <!--/.Second column-->
+
+                <!--Third column-->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <strong>Useful links</strong>
+                    </h6>
+                    <hr class="orange accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a href="https://www.facebook.com/">Facebook</a>
+                    </p>
+                    <p>
+                        <a href="#">Crunchbase</a>
+                    </p>
+                 
+                </div>
+                <!--/.Third column-->
+
+                <!--Fourth column-->
+                <div class="col-md-4 col-lg-3 col-xl-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <strong>Contact Us</strong>
+                    </h6>
+                    <hr class="orange accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <i class="fa fa-home mr-3"></i> Seoul, Korea</p>
+                    <p>
+                        <i class="fa fa-envelope mr-3"></i>rink.contact@gmail.com</p>
+                </div>
+                <!--/.Fourth column-->
+
+            </div>
+        </div>
+        <!--/.Footer Links-->
+
+        <!--Copyright-->
+        <div class="footer-copyright py-3 text-center">
+            © 2023 Copyright:
+            <a href="http://www.rinkdns.com"> www.rinkdns.com </a>
+        </div>
+        <!--/.Copyright-->
+
+    </footer>
+    <!--/.Footer-->
+
+
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+
+
+<script>
+    $(function () {
+  $(document).scroll(function () {
+    var $nav = $(".navbar-fixed-top");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
+</script>
+</body>
+
+</html>
